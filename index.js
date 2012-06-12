@@ -3,7 +3,6 @@ var http = require("http");
 var fs = require("fs");
 //var nowjs = require("now");
 
-
 var cache = {};
 cache['index.html'] = fs.readFileSync('./resources/index.html');
 cache['style.css'] = fs.readFileSync('./resources/style.css');
