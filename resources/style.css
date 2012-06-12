@@ -1,1 +1,165 @@
-asdfasdfasd
+/*****Generics***** 																	  <------- Generics & Classes*/
+.Float_Left{
+	float: left;
+}
+
+.Float_Right{
+	float: right;
+}
+
+body {
+	background-color: black;
+	font-family:"Agency FB";
+	margin: 0;
+	padding: 0;
+}
+
+/*****Container***** 																			   <------- Container*/
+#Container{
+	width: 1200px
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+/*****Header***** 																					  <------- Header*/
+#Header{
+	width: 960px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	float: left;
+	background: none;
+}
+
+#Header #MainLogo a{
+	width: px;
+	height: px;
+	display: block;
+	overflow: hidden;
+	background:url(/MainLogo/);
+}
+
+#Header #FollowMeLogo a{
+	width: px;
+	height: px;
+	display: block;
+	overflow: hidden;
+	background:url(/FollowMeLogo/);
+}
+
+#Header #ContactLogo a{
+	width: px;
+	height: px;
+	display: block;
+	overflow: hidden;
+	background:url(/ContactLogo/);
+}
+
+#Navigation_Bar{
+	position: fixed;
+	width: 300px;
+	top: 100px;
+	float:left;
+}
+
+#Navigation_Bar .nav_bar{
+	
+}
+
+#Contents{
+	width: 960px;
+	float:none;
+}
+
+
+/**Contents Left**/
+
+#Contents #Left{
+	/*margin: auto;*/
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 470px;
+	overflow: auto;	
+}
+	
+#Contents #Left #Welcome{
+	
+}
+
+#Contents #Left #Welcome h1{
+	
+}
+
+#Contents #Left #Welcome p{
+	
+}
+
+#Contents #Left #UpcomingEvents{
+	
+}
+
+#Contents #Left #UpcomingEvents h1{
+	
+}
+
+#Contents #Left #UpcomingEvents p{
+	
+}
+
+/**Contents_Right**/
+	
+#Contents #Right{
+	margin: auto;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	width: 470px;
+	overflow: auto;
+}
+
+#Contents #Right #News{
+	
+}
+
+#Contents #Right #News h1{
+	
+}
+
+#Contents #Right #News p{
+	
+}
+
+#Contents #Right #Gallery{
+	
+}
+
+
+/**Contents_Footer**/
+#Contents #Contents_Footer{
+	
+}
+
+
+
+/*****Footer*****																				      <------- Footer*/
+#Footer{
+	
+}
+
+#Footer h1{
+	
+}
+
+#Footer ul{
+	
+}
+
+#Footer ul li{
+	
+}
+
+#Footer ul li:hover{
+	
+} 
