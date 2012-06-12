@@ -5,7 +5,18 @@ var fs = require("fs");
 
 var cache = {};
 cache['index.html'] = fs.readFileSync('./resources/index.html');
-cache['style.css'] = fs.readFileSync('./resources/style.css');
+cache['/dj'] = fs.readFileSync('./resources/dj/dj_home.html');
+cache['/dj/about'] = fs.readFileSync('./resources/dj/dj_about.html');
+cache['/dj/info'] = fs.readFileSync('./resources/dj/dj_info.html');
+cache['/dj/pricing_contact'] = fs.readFileSync('./resources/dj/dj_pricing_contact.html');
+cache['/dj/dj_style.css'] = fs.readFileSync('./resources/dj/dj_style.css');
+cache['/personal'] = fs.readFileSync('./resources/personal/personal_home.html');
+cache['/personal/projects'] = fs.readFileSync('./resources/personal/personal_projects.html');
+cache['/personal/gallery'] = fs.readFileSync('./resources/personal/personal_gallery.html');
+cache['/personal/blog'] = fs.readFileSync('./resources/personal/personal_blog.html');
+cache['/personal/professional'] = fs.readFileSync('./resources/personal/personal_professional.html')
+cache['/personal/style.css'] = fs.readFileSync('./resources/personal/personal_style.css')
+
 
 var router = bee.route({ // Create a new router
 	"/": function(req, res) {
