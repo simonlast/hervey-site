@@ -6,6 +6,7 @@ var fs = require("fs");
 
 var cache = {};
 cache['index'] = fs.readFileSync('./resources/index.html');
+cache['style'] = fs.readFileSync('./resources/style.css');
 
 var router = bee.route({ // Create a new router
 	"/": function(req, res) {
