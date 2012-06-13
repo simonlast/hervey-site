@@ -26,7 +26,7 @@ var router = bee.route({ // Create a new router
 	    res.end();
     },
 
-	"/resources/`path...`": function(req, res, tokens, values) {
+	"/`path...`": function(req, res, tokens, values) {
 
        	res.writeHead(200, {"Content-Type": "text/html"});
 		if(cache[tokens['path']]){
