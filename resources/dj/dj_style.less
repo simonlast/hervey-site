@@ -1,0 +1,154 @@
+
+
+/*  Background Color Variables  */
+@main_background_color: #de23a3;
+@inner_background_color: rgb(220,220,200);
+
+.defaults{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    //background-color:
+}
+
+
+body{
+    .defaults;
+    font-family: Monaco, Verdana, "Lucida Calligraphy";
+}
+
+#header{
+    z-index: 3;
+    width: 1000px;
+    height: 60px;
+    top: 10px;
+    position: fixed;
+    left: -500px;
+    margin-left: 50%;
+    //background-color: @inner_background_color;
+    img{
+        width: 100%;
+        position: absolute;
+    }
+    ul#nav_bar_elements{
+        list-style-type: none;
+        z-index: 4;
+        position: absolute;
+        li{
+            float: left;
+        }
+        #about{
+            margin-left: 535px;
+            a{
+                margin-top: -3px;
+                display: block;
+                text-decoration: none;
+                padding: 7px 24px;
+                text-align: center;
+            }
+            a:hover{
+                background-color: aqua;
+            }
+        }
+        
+        #info{
+            margin-left: 2px;
+            a{
+                margin-top: -3px;
+                display: block;
+                text-decoration: none;
+                padding: 7px 29px;
+                text-align: center;
+            }
+            a:hover{
+                background-color: aqua;
+            }
+        }
+        #contact{
+            margin-left: 2px;
+            a{
+                margin-top: -3px;
+                display: block;
+                text-decoration: none;
+                padding: 7px 14px;
+                text-align: center;
+            }
+            a:hover{
+                background-color: aqua;
+            }
+        }
+        #personal{
+            margin-left: 2px;
+            a{
+                margin-top: -3px;
+                display: block;
+                text-decoration: none;
+                padding: 7px 9px;
+                text-align: center;
+            }
+            a:hover{
+                background-color: aqua;
+            }        
+        }
+    }
+}
+
+
+
+
+
+#container{
+    z-index: 1;
+    .defaults;
+    width: 1000px;
+    height: 2000px;
+    background-color: @main_background_color;
+    //position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_left{
+    width: 498px;
+    height: 1700px;
+    //background-color: blue;
+    float: left;
+     border-style: dashed;
+    border-width: 1px;
+    border-color: lime;
+    #welcome{
+        width: 400px;
+        height: 500px;
+        background-color: aqua;
+        margin-top: 150px;
+        margin-left: 60px;
+        opacity: .7;
+    }
+    #news{
+        
+    }
+}
+
+
+
+
+#main_right{
+    width: 498px;
+    height: 1700px;
+    //background-color: fuchsia;
+    float: left;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: navy;
+}
+
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: maroon;
+    float: left;
+}
+
+
+
+
